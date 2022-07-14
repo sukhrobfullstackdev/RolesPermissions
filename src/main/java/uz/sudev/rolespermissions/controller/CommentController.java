@@ -45,6 +45,7 @@ public class CommentController {
     public ResponseEntity<Message> deleteComment(@PathVariable Long id) {
         return commentService.deleteComment(id);
     }
+
     @CheckPermission(value = "DELETE_MY_COMMENT")
     @DeleteMapping(value = "/own/{id}")
     public ResponseEntity<Message> deleteMyComment(@PathVariable Long id) {

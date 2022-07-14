@@ -4,8 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.OnDelete;
-import org.hibernate.annotations.OnDeleteAction;
 import uz.sudev.rolespermissions.entity.enums.PermissionName;
 import uz.sudev.rolespermissions.entity.template.AbstractEntity;
 
